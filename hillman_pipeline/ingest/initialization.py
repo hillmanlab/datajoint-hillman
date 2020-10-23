@@ -88,7 +88,7 @@ data = [
 ]
 microscopy.TubeLens.insert(data,skip_duplicates=True)
 
-# micoscopy.Filterc
+# micoscopy.Filter
 data = [
     {'filter_part_number':'FF01-449/520-25','filter_manufacturer':'Semrock','filter_description':'BFP/GFP DUAL BANDPASS'},
     {'filter_part_number':'ZET594TopNotch','filter_manufacturer':'Chroma','filter_description':'594 Bandstop'},
@@ -99,6 +99,7 @@ microscopy.Filter.insert(data,skip_duplicates=True)
 
 # organism.Species
 data = [
+    {'species':'NULL','species_description':''},
     {'species':'C Elegans','species_description':''},
     {'species':'Zebrafish','species_description':''},
 ]
